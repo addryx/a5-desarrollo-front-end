@@ -1,0 +1,620 @@
+/* COMMON CASES */
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Common utility cases */
+
+.logo img, 
+.logo-footer img{
+    height: 120px;
+    width: 120px;
+}
+
+.buscador{
+    width: auto;
+    border-radius: 21px;
+}
+
+.buscador:hover{
+    border: 1px solid black;
+}
+
+.buscador:hover > .buscador-input {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.buscador:hover > .buscador-btn {
+    background: white;
+    color : #2f3640;
+}
+
+.buscador-input {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    transition: 1.5s ease;
+    line-height: 40px;
+    width: 0px;
+}
+
+.buscador-btn {
+    color: black;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #a3d3a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s ease;
+    margin: 2px;
+}
+
+.btn-1 {
+    height: 3rem;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0C3157;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgba(50, 57, 50, 0.35);
+}
+
+.btn-2 {
+    height: 3rem;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E02D1A;
+    background: #E02D1A;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgba(50, 57, 50, 0.35);
+}
+
+.btn-1 a{
+    color: #0C3157;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.btn-2 a{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* Header */
+
+#header{
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5%;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-buscador{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.nav ul{
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #0C3157;
+    line-height: 24px;
+}
+
+.btn{
+    width: 15%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+/* Footer */
+
+#footer{
+    height: 148px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 16px;
+    box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-around;
+    background: #0C3157;
+}
+
+.logo-footer{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios-footer{
+    width: 30%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.legal-footer{
+    width: 30%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.servicios-footer h3,
+.legal-footer h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.servicios-footer p,
+.legal-footer p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    margin-top: 0.5rem;
+}
+
+.servicios-footer a,
+.legal-footer a{
+    text-decoration: none;
+}
+
+/* BODY SECTIONS */
+
+/* Section common cases */
+
+#container{
+    height: auto;
+    width: 100%
+}
+
+.section{
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* Intro */
+
+.intro{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenido-intro{
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.txt-intro{
+    width: 100%;
+    height: auto;
+}
+
+.txt-intro p{
+    margin: 2rem;
+    text-align: justify;
+}
+
+.btn-intro{
+    margin: 2rem;
+}
+
+.img-intro{
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-intro img{
+    width: 80%;
+    height: 100%;
+}
+
+/* Catálogo de servicios */
+
+.catalogo-servicios{
+    height: auto;
+    width: 100%;
+}
+
+.tit-catalogo-servicios{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 24px 0 24px 0;
+}
+
+.cards{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 32px 0 32px 0;
+}
+
+.card{
+    height: 400px;
+    width: 320px;
+    background: #eeeded;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.3);
+    margin: 16px 8px 16px 8px;
+}
+
+.card img{
+    margin: 36px;
+}
+
+.txt-card h3{
+    line-height: 48px;
+}
+
+/* Tarifas y financiación */
+
+.tar-fin{
+    height: auto;
+    width: 100%;
+}
+
+.tarifas{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenido-tarifas{
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenido-tarifas h2{
+    margin: 24px 0;
+    text-align: center;
+}
+
+.contenido-tarifas p{
+    margin: 0 64px 16px 64px;
+    text-align: justify;
+}
+
+.img-tarifas{
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.financiacion{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-financiacion{
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenido-financiacion{
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenido-financiacion h2{
+    margin: 24px 0;
+    text-align: center;
+}
+
+.txt-financiacion p{
+    margin: 0 64px 16px 64px;
+    text-align: justify;
+}
+
+.cards-financiacion{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-financiacion h3{
+    text-align: center;
+    margin: 8px;
+}
+
+/* Nuestro equipo */
+
+.nuestro-equipo{
+    height: auto;
+    width: 100%;
+}
+
+.tit-nuestro-equipo{
+    text-align: center;
+    padding: 24px 0 24px 0;
+}
+
+.cards-ne{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 16px 0 16px 0;
+}
+
+.card-ne{
+    height: 300px;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin: 8px 0 8px 0;
+    padding: 16px 0 16px 0;
+    background: #eeeded;
+    border-radius: 8px;
+    box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.3);
+}
+
+.txt-card-ne{
+    height: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.txt-card-ne h3{
+    padding: 0 0 8px 0;
+}
+
+.txt-card-ne p{
+    line-height: 24px;
+}
+
+.img-card-ne{
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+/* Noticias */
+
+.noticias{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.tit-noticias{
+    text-align: center;
+    padding: 24px 0 24px 0;
+}
+
+.grupo-noticias{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    justify-content: space-around;
+    justify-items: center;
+    margin: 8px 0 8px 0;
+    padding: 24px 0 24px 0;
+}
+
+.noticia img{
+    height: 250px;
+    width: 250px;
+}
+
+/* TABLET */
+
+@media screen and (max-width: 992px) {
+
+    /* HEADER */
+    
+    .nav ul{
+        list-style-type: none;
+        text-align: center;
+        text-decoration: none;
+        margin-right: 16px;
+    }
+
+    /* SECTION */
+
+    /* Intro */
+
+    .img-intro{
+        height: auto;
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+
+    .img-intro img{
+        width: 80%;
+        height: 50%;
+    }
+
+    /* Catálogo de servicios */
+    
+    .cards{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 32px 0 32px 0;
+    }
+    
+    .card{
+        height: 400px;
+        width: 320px;
+        background: #eeeded;
+        text-align: center;
+        margin-bottom: 32px;
+        border-radius: 8px;
+        box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Tarifas y financiación */
+
+    .img-tarifas img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-financiacion{
+        height: auto;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-financiacion img{
+        width: 100%;
+        height: 60%;
+    }
+    
+    .contenido-financiacion{
+        height: auto;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 24px;
+    }
+    
+    .contenido-financiacion h2{
+        margin: 24px 16px;
+        text-align: center;
+    }
+    
+    .txt-financiacion p{
+        margin: 0 64px 16px 64px;
+        text-align: justify;
+    }
+    
+    .cards-financiacion{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .card-financiacion h3{
+        text-align: center;
+        margin: 8px;
+    }
+
+    /* Nuestro equipo */
+    
+    .card-ne{
+        height: 300px;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        margin: 8px 0 8px 0;
+        padding: 16px 0 16px 0;
+        background: #eeeded;
+        border-radius: 8px;
+        box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Noticias */
+    
+    .grupo-noticias{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        justify-content: space-around;
+        justify-items: center;
+        margin: 8px 0 8px 0;
+        padding: 24px 0 24px 0;
+    }
+    
+    .noticia img{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/* MOBILE */
+
