@@ -147,6 +147,10 @@
     line-height: 24px;
 }
 
+.nav-mobile{
+    display: none;
+}
+
 .btn{
     width: 15%;
     display: flex;
@@ -618,3 +622,56 @@
 
 /* MOBILE */
 
+@media screen and (max-width: 575px) {
+    
+/* HEADER */ 
+
+.nav{
+    display: none;
+}
+
+.nav-mobile{
+    display: flex;
+    align-items: center;
+}
+
+.nav-mobile ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav-mobile a {
+    display: block;
+    text-decoration: none;
+    color: #0C3157;
+    font-weight: bold;
+}
+
+.nav-mobile .IS{
+    color: #E02D1A;
+    font-weight: bold;
+}
+
+.nav-mobile a:hover {
+    font-weight: bold;
+}
+
+.nav-mobile ul li ul {
+    display: none;
+}
+
+.nav-mobile ul li a:hover + ul, .nav-mobile ul li ul:hover {
+    display: block;
+}
+
+.cont-buscador{
+    display: none;
+}
+
+.btn{
+    display: none;
+}
+
+}
