@@ -626,6 +626,10 @@
     
 /* HEADER */ 
 
+#header{
+    width: 100%;
+}
+
 .nav{
     display: none;
 }
@@ -672,6 +676,215 @@
 
 .btn{
     display: none;
+}
+
+/* BODY */
+
+.section{
+    width: 100%;
+    margin: 24px 0 24px 0;
+}
+
+/* Intro */
+
+.intro{
+    height: auto;
+    width: 100%;
+    display: block;
+    justify-content: space-around;
+}
+
+.contenido-intro{
+    height: auto;
+    width: 100%;
+}
+
+.txt-intro{
+    width: 100%;
+    height: auto;
+}
+
+.img-intro{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Tarifas y financiación */
+
+.tarifas{
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.contenido-tarifas{
+    height: auto;
+    width: 100%;
+}
+
+.contenido-tarifas h2{
+    margin: 24px 0;
+    text-align: center;
+}
+
+.contenido-tarifas p{
+    margin: 0 64px 16px 64px;
+    text-align: justify;
+}
+
+.img-tarifas{
+    height: auto;
+    width: 100%;
+}
+
+.financiacion{
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.img-financiacion{
+    height: auto;
+    width: 100%;
+    display: none;
+}
+
+.contenido-financiacion{
+    height: auto;
+    width: 100%;
+}
+
+.contenido-financiacion h2{
+    margin: 24px 0;
+    text-align: center;
+}
+
+.txt-financiacion p{
+    margin: 0 64px 16px 64px;
+    text-align: justify;
+}
+
+.cards-financiacion{
+    height: auto;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+/* Nuestro equipo */
+
+.nuestro-equipo{
+    height: auto;
+    width: 100%;
+}
+
+.tit-nuestro-equipo{
+    text-align: center;
+    padding: 24px 0 24px 0;
+}
+
+.cards-ne{
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.card-ne{
+    height: auto;
+    width: 90%;
+    display: block;
+    margin-left: 5%;
+    padding: 16px 0 16px 0;
+    background: #eeeded;
+    border-radius: 8px;
+    box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.3);
+}
+
+.txt-card-ne{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.txt-card-ne h3{
+    padding: 0 0 8px 0;
+}
+
+.txt-card-ne p{
+    line-height: 24px;
+}
+
+.img-card-ne{
+    height: auto;
+    width: 50%;
+    display: flex;
+    margin-left: 25%;
+    justify-content: center;
+    padding: 8px;
+}
+
+/* Noticias */
+
+.noticias{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.tit-noticias{
+    width: 100%;
+    text-align: center;
+}
+
+.grupo-noticias{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.noticia img{
+    height: 250px;
+    width: 250px;
+}
+
+/* FOOTER */
+
+#footer{
+    height: auto;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 40px;
+    margin-bottom: 0;
+    border-radius: 0;
+    box-shadow: 0;
+    display: block;
+    background: #0C3157;
+}
+
+.logo-footer{
+    width: 100%;
+}
+
+.servicios-footer{
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.legal-footer{
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    padding-bottom: 16px;
 }
 
 }
