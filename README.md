@@ -18,12 +18,12 @@ Partiendo del prototipo, implementadlo a través de **HTML y CSS** mediante un d
 **Páginas HTML**
 
 - Home
-- Foro
+- Perfil
 
 **Páginas CSS**
 
 - styleHome
-- styleForo
+- stylePerfil
 
 ### Entregas:
 

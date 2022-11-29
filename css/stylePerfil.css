@@ -83,21 +83,13 @@
     justify-content: center;
     align-items: center;
     border: 1px solid #E02D1A;
-    background: #a3d3a3;
+    background: #0C3157;
     border-radius: 8px;
     box-shadow: 4px 4px 4px rgba(50, 57, 50, 0.35);
 }
 
-.btn-1 a{
-    color: #0C3157;
-    font-weight: bold;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-}
-
 .btn-2 a{
-    color: #0C3157;
+    color: #ffffff;
     font-weight: bold;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -211,4 +203,23 @@
 .servicios-footer a,
 .legal-footer a{
     text-decoration: none;
+}
+
+/* Perfil */
+
+.breadcrumbs span{
+    font-size: 16px;
+}
+
+.cuenta{
+    justify-content: center;
+}
+
+.contenido-cuenta{
+    display: flex;
+    justify-content: center;
+}
+
+.photo-noticia{
+    justify-content: left;
 }
