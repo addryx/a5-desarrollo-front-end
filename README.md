@@ -18,10 +18,16 @@ Partiendo del prototipo, implementadlo a través de **HTML y CSS** mediante un d
 **Páginas HTML**
 
 - Home
+- Mensajes
+- EscribirMensajes
+- Perfil
 
 **Páginas CSS**
 
 - styleHome
+- styleEscribirMensaje
+- styleMensaje
+- stylePerfil
 
 ### Entregas:
 
