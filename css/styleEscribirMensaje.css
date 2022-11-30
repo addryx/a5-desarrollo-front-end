@@ -231,7 +231,12 @@
   margin-top: 40px;
   margin-bottom: 40px;
   border-radius: 16px;
+}
 
+.breadcrumbs a:any-link{
+  text-decoration:none;
+  color:#000000;
+  margin-left: 1%;
 }
 
 /* Tarifas y financiación */

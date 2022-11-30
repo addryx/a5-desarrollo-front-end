@@ -229,8 +229,14 @@
     margin-top: 40px;
     margin-bottom: 40px;
     border-radius: 16px;
-    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.3);
-}
+  }
+
+.breadcrumbs a:any-link{
+    text-decoration:none;
+    color:#000000;
+    margin-left: 1%;
+  }
+
 /* Mis mensajes */
 .mensajesVacios{
     display: flex;
@@ -241,12 +247,19 @@
     justify-content: center;
 }
 .btnRedactar{
+    margin: 0 64px 16px 64px;
+    height: 3rem;
+    width: 7rem;
     display: flex;
     justify-content: center;
-    background-color: #0C3157;
-    color:#ffffff
-
+    align-items: center;
+    border: 1px solid #0C3157;
+    background: #0C3157;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgba(50, 57, 50, 0.35);
+    color: #ffffff;
 }
+
 .btnRecibidos{
     font-size: 70%;
     background-color: #C4DDF6;
