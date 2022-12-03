@@ -112,6 +112,12 @@
     display: flex;
     justify-content: space-evenly;
     margin-left: 5%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+
+
 }
 
 .logo{
@@ -132,20 +138,35 @@
     width: 15%;
     display: flex;
     align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
     justify-content: right;
-}
-
-.nav ul{
+  }
+  
+  .nav ul{
     list-style-type: none;
     text-align: center;
     text-decoration: none;
-}
-
-.nav a{
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav li{
+    margin: 20px;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .nav a{
     text-decoration: none;
     color: #0C3157;
-    line-height: 24px;
-}
+    line-height: 18px;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    
+  }
 
 .nav-mobile{
     display: none;
