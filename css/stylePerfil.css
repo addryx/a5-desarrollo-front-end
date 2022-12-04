@@ -170,7 +170,9 @@
 /* Perfil */
 
 .breadcrumbs span{
-    font-size: 16px;
+    text-decoration:none;
+    color:#000000;
+    margin-left: 1%;
 }
 
 .cuenta{
